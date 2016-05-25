@@ -158,9 +158,20 @@ Yes. With an IDX Broker subscription and adding their IMPress for IDX Broker plu
 
 Yes. This plugin can be used instead of the AgentPress Listings plugin. It uses the same post type name and custom field names (along with several new fields), so the posts you've added using AgentPress, along with the associated meta data, will remain attached to the listing post. Just be sure to deactivate AgentPress before activating IMPress Listings.
 
-### My theme already has a single listing template. How do I use the one provided with the plugin? ###
+### How do I define my own listing templates for my theme? ###
 
-Some themes may already have a `single-listing.php` (and archive.php for listing archives) to display listings with the same post type name of 'listings'. Templates placed within your theme folder have precedence. To use the template(s) provided with the plugin, delete the `single-listing.php` and/or the `archive-listing.php` templates within your theme's folder (recommended to make a backup).
+You can define the following custom templates:
+
+- `single-listing.php`
+- `archive-listing.php`
+- `search-listing.php`
+- `taxonomy-listing.php`
+
+If you put your own version of these in the root of your theme folder (you should use ours as a base, found in the plugin's `/includes/views/` folder), the plugin will use them instead when displaying the relevant plugins
+
+### My theme already has a custom template. How do I use the one provided with the plugin? ###
+
+Some themes may already have `x-listing.php` files to display listings with the same post type name of 'listings'. Templates placed within your theme folder have precedence. To use the template(s) provided with the plugin, delete the `x-listing.php` templates within your theme's folder (it's recommended to make a backup).
 
 ### How can I create a custom single listing template? ###
 
