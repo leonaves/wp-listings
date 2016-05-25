@@ -167,7 +167,7 @@ You can define the following custom templates:
 - `search-listing.php`
 - `taxonomy-listing.php`
 
-If you put your own version of these in the root of your theme folder (you should use ours as a base, found in the plugin's `/includes/views/` folder), the plugin will use them instead when displaying the relevant plugins
+If you put your own version of these in the root of your theme folder (you should use ours as a base, found in the plugin's `/includes/views/` folder), the plugin will use them instead when displaying the relevant pages.
 
 ### My theme already has a custom template. How do I use the one provided with the plugin? ###
 
